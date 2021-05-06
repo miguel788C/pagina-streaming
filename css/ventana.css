@@ -1,0 +1,60 @@
+.modal {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  background: rgba(0,0,0,0.8);
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  animation: modal 1s 2s forwards;
+  visibility: hidden;
+  opacity: 0;
+  text-align: center;
+  color: white;
+}
+
+.contenedor {
+  width: 90%;
+  height: 50%;
+  margin: auto;
+  border-radius: 10px;
+}
+
+#img{
+    width: 60%;
+    background-image: url(../img/img16.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#cerrar {
+  display: none;
+}
+#cerrar + label {
+  position: fixed;
+  color: #fff;
+  font-size: 25px;
+  z-index: 50;
+  background: darkred;
+  height: 40px;
+  width: 40px;
+  line-height: 40px;
+  border-radius: 50px;
+  right: 10px;
+  cursor: pointer;
+  animation: modal 1s 2s forwards;
+  visibility: hidden;
+  opacity: 0;
+  text-align: center;
+
+}
+#cerrar:checked + label, #cerrar:checked ~ .modal {
+  display: none;
+}
+@keyframes modal {
+  100% {
+    visibility: visible;
+    opacity: 1;
+  }
+}
