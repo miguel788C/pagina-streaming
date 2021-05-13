@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width, inicial-scale=1, maximum-scale=1, minimum-scale=1">
     <link rel="stylesheet" href="css/estilos.css">
     <link rel="stylesheet" href="css/fontello.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery.dataTables.min.js"></script>
     <title>PELIS21</title>
 </head>
 <body>
     <header>
-        <div></div>
         <input type="checkbox" id="btn-menu">
         <label class="lbl-menu" for="btn-menu">
         <span id="spn1"></span>
@@ -18,9 +19,8 @@
         </label>  
         <nav class="menu">
             <a class="icon-cinema">C.BORG!</a>
-            <a href="ini.html">Inicio</a>
-            <a href="ex.html">Explore</a>
-            <a href="cat.html">Categoras</a>
+            <a href="ini.html">Explore</a>
+            <a href="cat.html">Categorias</a>
             <a href="reg.html">Registrese</a>
             <a href="index.html">cerrar sesión</a>
         </nav>
@@ -31,71 +31,140 @@
             <h2>Películas y series ilimitadas</h2>
         </div>
     </section>
+    <div class="contenedor">
+        <div class="search-box">
+            <input type="text" id="input-search" class="search-txt" placeholder="Buscar">
+            <a href="" class="search-btn">
+            <i class="icon-search"></i></a>
+            <div class="content-search">
+                <div class="content-table">
+                    <table id="table">
+                        <thead>
+                            <tr>
+                                <td></td>
+                            </tr>
+                        </thead>
+                
+                        <tbody>
+                            <tr>
+                                <td><a href="#">Inicio</a></td>
+                            </tr>
+                    
+                            <tr>
+                                <td><a href="#">css</a></td>
+                            </tr>
+                    
+                            <tr>
+                                <td><a href="#">index</a></td>
+                            </tr>
+                    
+                            <tr>
+                                <td><a href="#">php</a></td>
+                            </tr>
+                    
+                            <tr>
+                                <td><a href="#">html</a></td>
+                            </tr>
+                    
+                            <tr>
+                                <td><a href="#">jueos</a></td>
+                            </tr>
+                    
+                            <tr>
+                                <td><a href="#">call of duty</a></td>
+                            </tr>
+                    
+                            <tr>
+                                <td><a href="#">need for speed</a></td>
+                            </tr>
+                    
+                            <tr>
+                                <td><a href="#">mario</a></td>
+                            </tr>
+                    
+                            <tr>
+                                <td><a href="#">pap</a></td>
+                            </tr>
+                    
+                            <tr>
+                                <td><a href="#">pop</a></td>
+                            </tr>
+                    
+                            <tr>
+                                <td><a href="#">carrear</a></td>
+                            </tr>
+                    
+                        </tbody>
+                        
+                    </table>
+                </div>
+            </div>
+           
+        </div>
+    </div>
+    <script src="js/search.js"></script>
     <section id="blog">
         <div class="contenedor">
-            <img src="img/es.jpg">
             <article>
                 <p>Bienvenida/o a C.BORG! Aquí podrás encontrar fácilmente dónde ver tus películas y Series en streaming en Bolivia.
                 C.BORG! es fácil de usar y eficaz: elige tus proveedores favoritos de series y de películas online en la Explore y encuentra que hay de nuevo en Netflix, HBO, Amazon Prime Video, Movistar Plus y otros 12 proveedores de streaming legal.</p><p>Organizamos listas de películas y de series por popularidad para ayudarte a ver tus películas online favoritas y las mejores series online en castellano. En este momento, entre las mejores películas que hay que ver, encontrarás Hotel Transilvania 3: Monstruos De Vacaciones, Marvel Vengadores: Infinity War y el film de terror Interstellar.En cuanto a las series, las más populares y disponibles para streaming legal en este momento son Chernobyl , Juego de Tronos y The Walking Dead</p>
-                <center><video controls src="img/l.mp4" width="90%" height="40%"></video>
-                <br></center>
                 <article class="portafolio">
                     <div class="contenedor">
-                        <h3 class="titulo">PELICULAS</h3>
+                        <h3 class="titulo">Cartelera!</h3>
                         <div class="galeria-port">
                             <div class="imagen-port">
                                 <img src="img/img1.jpg" >
                                 <div class="hover-galeria">
-                                    <a><img src="img/bio.png"></a>
+                                    <a href="https://www.youtube.com/watch?v=3od-kQMTZ9M"><img src="img/bio.png"></a>
                                     <p>Monster Hunter</p>
                                 </div>
                             </div>
                             <div class="imagen-port">
                                 <img src="img/img2.jpg">
                                 <div class="hover-galeria">
-                                    <a><img src="img/bio.png"></a>
+                                    <a href="https://www.youtube.com/watch?v=wv_lRmhpj4s"><img src="img/bio.png"></a>
                                     <p>Los Croods</p>
                                 </div>
                             </div>
                             <div class="imagen-port">
                                 <img src="img/img3.jpg">
                                 <div class="hover-galeria">
-                                    <a><img src="img/bio.png"></a>
+                                    <a href="https://www.youtube.com/watch?v=odM92ap8_c0"><img src="img/bio.png"></a>
                                     <p>Godzilla vs Kong</p>
                                 </div>
                             </div>
                             <div class="imagen-port">
                                 <img src="img/img4.jpg">
                                 <div class="hover-galeria">
-                                    <a><img src="img/bio.png"></a>
+                                    <a href="https://www.youtube.com/watch?v=9C9gUm4PVQI"><img src="img/bio.png"></a>
                                     <p>Tom y Jerry</p>
                                 </div>
                             </div>
                             <div class="imagen-port">
                                 <img src="img/img5.jpg">
                                 <div class="hover-galeria">
-                                    <a><img src="img/bio.png"></a>
+                                    <a href="https://www.youtube.com/watch?v=3pnLbDq_1bw"><img src="img/bio.png"></a>
                                     <p>Peninsula</p>
                                 </div>
                             </div>
                             <div class="imagen-port">
                             <img src="img/img6.jpg">
                                 <div class="hover-galeria">
-                                    <a><img src="img/bio.png"></a>
+                                    <a href="https://www.youtube.com/watch?v=aQFHKzN-yw0"><img src="img/bio.png"></a>
                                     <p>Raya</p>
                                 </div>
                             </div>
                             <div class="imagen-port">
                                 <img src="img/img7.jpg">
                                 <div class="hover-galeria">
-                                    <a><img src="img/bio.png"></a>
+                                    <a href="https://www.youtube.com/watch?v=aZqX6morfLI"><img src="img/bio.png"></a>
                                     <p>Minari</p>
                                 </div>
                             </div>
                             <div class="imagen-port">
                                 <img src="img/img10.jpg">
                                 <div class="hover-galeria">
-                                    <a><img src="img/bio.png"></a>
+                                    <a href="https://www.youtube.com/watch?v=7zPuFQQfRbE"><img src="img/bio.png"></a>
                                     <p>Guardianes de la noche</p>
                                 </div>
                             </div>
@@ -104,15 +173,19 @@
                 </article>
             </article>
         </div>
-        <footer class="contenedor">
-            <div class="sociales">
-                <a class="icon-facebook-rect"></a>
-                <a class="icon-instagram"></a>
-                <a class="icon-youtube-play"></a>
-                <a class="icon-twitter-circled"></a>
-            </div>
-            <center><p class="copy">M&C &copy;2021</p></center>
-        </footer>
     </section>
+    <footer>
+        <div class="sociales">
+            <h3 class="icon-cinema">C.BORG!</h3>
+            <p>¿Ayuda? Whatsapp <a href="https://wa.me/65646930">+591 65646930 (BOL)</a>
+            <p><a href="reg.html">Registrese</a></p>
+            <p><a href="#">Privacidad y Condiciones</a></p>
+            <a class="icon-facebook-rect"></a>
+            <a class="icon-instagram"></a>
+            <a class="icon-youtube-play"></a>             
+            <a class="icon-twitter-circled"></a>
+            <p class="copy">&copy;2021 M&C</p>
+        </div>
+    </footer>
 </body>
 </html>

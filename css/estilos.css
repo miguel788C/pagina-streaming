@@ -3,6 +3,35 @@
 @import url(ventana.css);
 @import url(portafolio.css);
 @import url(menu.css);
+@import url(buscar.css);
+body {
+    font-family: 'Bahnschrift', sans-serif;
+    background-color: #33334d;
+    color: white;
+    }
+
+header {
+    width: 100%;
+    height: 50px;
+    background: hsla(273,91%,27%);
+    color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.contenedor {
+    width: 80%;
+    margin: auto;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 h1{
     font-family: "Vivaldi", Times, serif;
     text-align: center;
@@ -21,6 +50,7 @@ p, a,{
 }
 h3, h4 {
     font-size: 22px;
+    color: black;
 }
 span{
     font-size: 8px;
@@ -73,38 +103,11 @@ span{
     height: 50px;
     text-decoration:none;
     padding: 19.5px;
-    border-bottom: 2px solid rgb(255, 255, 255,0.7);
+    border-bottom: 2px 
 }
 .ger a:hover {
   background-color: hsl(273, 91%, 45%);
   border-radius: 10px;
-}
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: 'Bahnschrift', sans-serif;
-    background-color: hsl(0, 0%, 95%);
-    }
-
-header {
-    width: 100%;
-    height: 50px;
-    background: hsla(273,91%,27%);
-    color: #fff;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 100;
-}
-
-.contenedor {
-    width: 80%;
-    margin: auto;
 }
 
 section {
@@ -127,6 +130,8 @@ footer.copy {
     width: 100%;
     text-align: center;
     font-size: 28px;
+    background: #8585ad;
+    color: black
 }
 
 .sociales a {
@@ -139,7 +144,7 @@ footer.copy {
     font-family: "Vivaldi", Times, serif;
     }
     .contenedor {
-        width: 90%;
+        width: 95%;
     }
     p, a, li{
         font-size: 15px;
@@ -153,7 +158,7 @@ footer.copy {
     font-family: "Vivaldi", Times, serif;
     }
     .contenedor {
-        width: 85%;
+        width: 95%;
     }
     p, a, li{
         font-size: 13px;
@@ -168,7 +173,7 @@ footer.copy {
     font-family: "Vivaldi", Times, serif;
     }
     .contenedor {
-        width: 80%;
+        width: 90%;
     }
     p, a,li{
         font-size: 12px;
@@ -181,10 +186,6 @@ footer.copy {
     h1{
     font-family: "Vivaldi", Times, serif;
     }
-    header {
-    width: 100%;
-    height: 40px;
-    }
     .ger a{
     display:  block;
     color: #fff;
@@ -194,7 +195,7 @@ footer.copy {
     border-bottom: 2px solid rgb(255, 255, 255,0.7);
     }
     .contenedor {
-    width: 100%;
+    width: 80%;
     }
     p, a, li{
     font-size: 9px;
