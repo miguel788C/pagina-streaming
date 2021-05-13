@@ -44,7 +44,7 @@ h2{
     margin-bottom: 10px;
     color: #FFF;
 }
-p, a,{
+p, a, li{
     font-size: 15px;
     text-decoration: none;
 }
@@ -198,9 +198,9 @@ footer.copy {
     width: 80%;
     }
     p, a, li{
-    font-size: 9px;
+    font-size: 12px;
     }
     h3, h4{
-    font-size: 12px;
+    font-size: 15px;
     }
 }
